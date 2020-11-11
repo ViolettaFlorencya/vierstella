@@ -12,8 +12,8 @@ li {
 }
 
 .logo{
-  width:140px;
-  margin-top: -40px;
+  width:300px;
+  margin-top: -100px;
 }
 
 .container {
@@ -23,10 +23,9 @@ li {
 }
 
 .top-wrapper{
-  padding: 60px 0 50px 0;
-  background-image: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm281-nunny-425.jpg?bg=transparent&con=3&cs=srgb&dpr=1&fm=jpg&ixlib=php-3.1.0&q=65&usm=15&vib=3&w=1000&s=af11578422b4286d5225711643cd3bf8);
-  background-size: cover;
-  color:#a89780;
+  padding: 60px 0 150px 0;
+  background-image: url(https://pixabay.com/get/55e2d1454855a414f6d1867dda353678153adee054557948_1920.jpg);
+  color:#906fa8;
   text-align: center;
 }
 
@@ -34,6 +33,7 @@ li {
   font-size: 80px;
   letter-spacing: 7px;
   margin-bottom: 9px;
+  margin-top: 150px;
 }
 
 .top-wrapper h2 {
@@ -83,7 +83,7 @@ li {
 header {
   height:65px;
   width:98.9%;
-  background-color:#f5e6d3;
+  background-color:#bcafbd;
   position:fixed;
   top:0;
   z-index:10
@@ -101,7 +101,7 @@ header {
 .header-right a {
   line-height:65px;
   padding: 0 20px;
-  color:#6f92a8;
+  color:#ffffff;
   display:block;
   float:left;
   transition:all 0.5s;
@@ -109,7 +109,7 @@ header {
 }
 
 .header-right a:hover {
-  background-color:#d1e7f5;
+  background-color:#ffa976;
 }
 
 .lesson-wrapper {
@@ -139,7 +139,7 @@ header {
   position:relative;
   top:75%;
   width:100%;
-  color:#6f92a8;
+  color:#bcafbd;
 }
 
 .latestproduct-wrapper {
@@ -147,7 +147,7 @@ header {
   padding-top:35px;
   padding-left: 5%;
   padding-right: 5%;
-  background-color:#d1e7f5;
+  background-color:#f9d9c0;
   text-align:center;
   border-bottom:2px solid#a89780
 }
@@ -156,7 +156,7 @@ header {
   font-size: 50px;
   font-family: "Amatic sc";
   text-align: center;
-  color:#6f92a8;
+  color:#bcafbd;
 }
 
 .latestproduct {
@@ -181,7 +181,7 @@ header {
   display:inline-block;
   margin-top:15px;
   font-size: 15px;
-  color:#6f92a8;
+  color:#bcafbd;
 }
 
 .main {
@@ -191,27 +191,29 @@ header {
 .copy-container h1 {
   font-size: 70px;
   font-family: "Amatic sc";
-  color:#fffbf5;
-  background-color:#a89780;
+  color:#ffa976;
+  background-color:#d8d8d6;
   text-align: center;
 }
 
 .contents{
   height:200px;
   padding-bottom:60px;
+  background-color:#d8d8d6;
 
 }
 
 .contents-item {
-  padding-top: 0px;
+  padding-top: 10px;
   padding-bottom:0px;
+  padding-left:55px;
   width:50%;
   float:left;
 }
 
 .contact-form {
-  padding-top:1500px;
-  background-color:#f5e6d3;
+  padding-top:0px;
+  background-color:#d8d8d6;
   padding-left: 4%;
   font-size: 15px;
   color:#a89780;
@@ -232,7 +234,7 @@ input,textarea {
 }
 
 footer {
-  background-color:#6f92a8;
+  background-color:#ffa976;
   width:100%;
   height:340px;
 }
@@ -258,5 +260,5 @@ footer {
 
 .footer-right h3 {
   font-size: 28px;
-  color:#d1e7f5;
+  color:#bcafbd;
 }
